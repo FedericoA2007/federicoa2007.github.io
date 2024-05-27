@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    margin: auto;
+    padding: none;
+    font-family: Poetsen one,Arial, Helvetica, sans-serif;
+    background-color: #2196f3;
+    color:#e3f2fd;
+    text-align: center;
+}
+
+a{
+    color:#e3f2fd;
+    text-decoration:none;
+}
+
+h1{
+    color: #bbdefb;
+    margin-top: 2em;
+}
+
+a:hover{
+    color: #fefefe;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #e3f2fd;
+}
