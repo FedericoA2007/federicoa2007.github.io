@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nissan Skyline</title>
+</head>
+<body>
+   
+    <h1>Nissan Skyline</h1>
+    
+   
+    <img src="https://example.com/nissan-skyline.jpg" alt="Nissan Skyline" width="600">
+    
+  
+    <h2>Prezzi per modello e alimentazione</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Modello</th>
+                <th>Alimentazione</th>
+                <th>Prezzo (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Skyline GT-R R34</td>
+                <td>Benzina</td>
+                <td>90,000</td>
+            </tr>
+            <tr>
+                <td>Skyline GT-R V-Spec II</td>
+                <td>Benzina</td>
+                <td>100,000</td>
+            </tr>
+            <tr>
+                <td>Skyline 2000GT</td>
+                <td>Benzina</td>
+                <td>70,000</td>
+            </tr>
+        </tbody>
+    </table>
+    
+  
+    <h2>Optional</h2>
+    <ul>
+        <li>Cambio automatico</li>
+        <li>Sistema di navigazione avanzato</li>
+        <li>Impianto audio premium</li>
+        <li>Tetto apribile panoramico</li>
+        <li>Sedili in pelle riscaldati</li>
+    </ul>
+    
+   
+    <h2>Punti di forza</h2>
+    <p>
+        La Nissan Skyline è un'icona dell'ingegneria automobilistica, famosa per il suo design sportivo e le prestazioni eccezionali. 
+        Equipaggiata con motori potenti e tecnologie avanzate, offre un'esperienza di guida unica e dinamica. 
+        La Skyline si distingue per la qualità costruttiva, l'affidabilità e una tradizione consolidata nel mondo delle corse.
+    </p>
+    
+  
+    <h2>Concessionarie</h2>
+    <p>
+        Per maggiori informazioni o per trovare una concessionaria autorizzata, visita 
+        <a href="https://www.nissan.it/" target="_blank">il sito ufficiale Nissan</a>.
+    </p>
+    
+
+    <h2>Richiedi informazioni</h2>
+    <form action="/submit" method="post">
+        <label for="dealership">Nome della concessionaria visitata:</label><br>
+        <input type="text" id="dealership" name="dealership"><br><br>
+        
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">Acconsento al trattamento dei dati personali</label><br><br>
+        
+        <label for="model">Modello di interesse:</label><br>
+        <select id="model" name="model">
+            <option value="r34">Skyline GT-R R34</option>
+            <option value="v-spec">Skyline GT-R V-Spec II</option>
+            <option value="2000gt">Skyline 2000GT</option>
+        </select><br><br>
+        
+        <button type="submit">Invia</button>
+    </form>
+</body>
+</html>
