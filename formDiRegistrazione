@@ -8,27 +8,27 @@
 <body>
     <h1>Modulo di Registrazione</h1>
     <form action="/submit" method="post" enctype="multipart/form-data">
-        <!-- Cognome -->
+       
         <label for="cognome">Cognome:</label><br>
         <input type="text" id="cognome" name="cognome" required><br><br>
 
-        <!-- Nome -->
+     
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome" required><br><br>
 
-        <!-- Data di nascita -->
+      
         <label for="data-nascita">Data di nascita:</label><br>
         <input type="date" id="data-nascita" name="data_nascita" required><br><br>
 
-        <!-- Email -->
+       
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
 
-        <!-- Password -->
+       
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password" required><br><br>
 
-        <!-- Regione -->
+       
         <label for="regione">Regione:</label><br>
         <select id="regione" name="regione" required>
             <option value="">Seleziona una regione</option>
@@ -40,26 +40,26 @@
             <!-- Aggiungi altre regioni -->
         </select><br><br>
 
-        <!-- Sesso -->
+       
         <label>Sesso:</label><br>
         <input type="radio" id="maschio" name="sesso" value="maschio" required>
         <label for="maschio">Maschio</label><br>
         <input type="radio" id="femmina" name="sesso" value="femmina" required>
         <label for="femmina">Femmina</label><br><br>
 
-        <!-- Privacy -->
+       
         <input type="checkbox" id="privacy" name="privacy" required>
         <label for="privacy">Acconsento alla privacy</label><br><br>
 
-        <!-- Note -->
+        
         <label for="note">Note:</label><br>
         <textarea id="note" name="note" rows="4" cols="50"></textarea><br><br>
 
-        <!-- Invia CV -->
+       
         <label for="cv">Invia CV:</label><br>
         <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx"><br><br>
 
-        <!-- Bottone Invia -->
+        
         <button type="submit">Invia</button>
     </form>
 </body>
